@@ -1,6 +1,5 @@
 from typing import List
 
-
 def removeDuplicates(nums: List[int]):
     if len(nums) > 0:
         x = 0
