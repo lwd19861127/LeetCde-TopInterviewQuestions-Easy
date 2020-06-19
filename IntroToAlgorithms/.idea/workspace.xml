@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9dacd83-dfd3-493a-9036-fae5bef70ee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/String/ValidPalindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/String/ImplementStrStr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/String/StringToInteger(atoi).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       <recent name="$PROJECT_DIR$/Labs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ValidPalindrome">
+  <component name="RunManager" selected="Python.ImplementStrStr">
     <configuration name="FirstUniqueCharacterInAString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IntroToAlgorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MoveZeroesSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ImplementStrStr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IntroToAlgorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,12 +79,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Array/MoveZeroesSolution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/String/ImplementStrStr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StringToInteger(atoi)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IntroToAlgorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/String" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/String/StringToInteger(atoi).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,35 +159,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ValidSudokuSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="IntroToAlgorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Array/ValidSudokuSolution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ImplementStrStr" />
+        <item itemvalue="Python.StringToInteger(atoi)" />
         <item itemvalue="Python.ValidPalindrome" />
         <item itemvalue="Python.ValidAnagram" />
         <item itemvalue="Python.FirstUniqueCharacterInAString" />
-        <item itemvalue="Python.ValidSudokuSolution" />
-        <item itemvalue="Python.MoveZeroesSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,7 @@
       <workItem from="1569360311686" duration="25807000" />
       <workItem from="1569600341410" duration="28445000" />
       <workItem from="1592120604524" duration="15076000" />
-      <workItem from="1592544840856" duration="2987000" />
+      <workItem from="1592544840856" duration="6537000" />
     </task>
     <task id="LOCAL-00001" summary="FirstUniqueCharacterInAString">
       <created>1592550616389</created>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592551268576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Valid Palindrome&quot;">
+      <created>1592552065815</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592552065815</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FirstUniqueCharacterInAString" />
     <MESSAGE value="ValidAnagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="ValidAnagram" />
+    <MESSAGE value="&quot;Valid Palindrome&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Valid Palindrome&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Inspections" timestamp="1592549492434">
@@ -232,60 +241,60 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="354" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1592121510146" />
-    <state x="302" y="45" key="CommitChangelistDialog2" timestamp="1592551268422">
+    <state x="302" y="45" key="CommitChangelistDialog2" timestamp="1592552065677">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="302" y="45" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592551268422" />
+    <state x="302" y="45" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592552065677" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1592550536993">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1592550536993" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1592551992631">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1592558719326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592551992631" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592558719326" />
     <state width="1419" height="248" key="GridCell.Tab.0.bottom/2880.1800" timestamp="1592120603309" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1592551992630">
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1592558719325">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592551992630" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592558719325" />
     <state width="1419" height="248" key="GridCell.Tab.0.center/2880.1800" timestamp="1592120603309" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1592551992628">
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1592558719325">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592551992628" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592558719325" />
     <state width="1419" height="248" key="GridCell.Tab.0.left/2880.1800" timestamp="1592120603309" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1592551992630">
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1592558719326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592551992630" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592558719326" />
     <state width="1419" height="248" key="GridCell.Tab.0.right/2880.1800" timestamp="1592120603309" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1592551992635">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1592558719821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592551992635" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592558719821" />
     <state width="1419" height="303" key="GridCell.Tab.1.bottom/2880.1800" timestamp="1592120603309" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1592551992634">
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1592558719820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592551992634" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592558719820" />
     <state width="1419" height="303" key="GridCell.Tab.1.center/2880.1800" timestamp="1592120603309" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1592551992633">
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1592558719819">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592551992633" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592558719819" />
     <state width="1419" height="303" key="GridCell.Tab.1.left/2880.1800" timestamp="1592120603309" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1592551992634">
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1592558719821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592551992634" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592558719821" />
     <state width="1419" height="303" key="GridCell.Tab.1.right/2880.1800" timestamp="1592120603309" />
     <state x="213" y="75" key="SettingsEditor" timestamp="1592120603309" />
     <state x="213" y="75" key="SettingsEditor/2880.1800" timestamp="1592120603309" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592551276386">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592552072329">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592551276386" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592552072329" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1592468712961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -318,11 +327,6 @@
           <url>file://$PROJECT_DIR$/SortingAlgorithms/SortArrayByParity.py</url>
           <line>1</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/String/ValidPalindrome.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -361,6 +365,7 @@
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$Unittests_for_Lab6Grader_Grader_test_generate_primes.coverage" NAME="Unittests for Lab6Grader.Grader.test_generate_primes Coverage Results" MODIFIED="1569369746337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$Unittests_for_Lab3Grader_Grader_test_count_hi.coverage" NAME="Unittests for Lab3Grader.Grader.test_count_hi Coverage Results" MODIFIED="1569452081071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$ValidAnagram.coverage" NAME="ValidAnagram Coverage Results" MODIFIED="1592551153009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/String" />
+    <SUITE FILE_PATH="coverage/IntroToAlgorithms$ImplementStrStr.coverage" NAME="ImplementStrStr Coverage Results" MODIFIED="1592558719231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/String" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$Unittests_for_Lab5Grader_Grader_test_replace_negative.coverage" NAME="Unittests for Lab5Grader.Grader.test_replace_negative Coverage Results" MODIFIED="1569963207316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$Lab7.coverage" NAME="Lab7 Coverage Results" MODIFIED="1569964620777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$SortArrayByParity.coverage" NAME="SortArrayByParity Coverage Results" MODIFIED="1570057216945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SortingAlgorithms" />
@@ -369,6 +374,7 @@
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$Unittests_for_Lab5Grader_Grader_test_sort_half.coverage" NAME="Unittests for Lab5Grader.Grader.test_sort_half Coverage Results" MODIFIED="1569960484739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$BuySellStockII.coverage" NAME="BuySellStockII Coverage Results" MODIFIED="1592143111221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$Unittests_for_Lab3Grader_Grader_test_big_diff.coverage" NAME="Unittests for Lab3Grader.Grader.test_big_diff Coverage Results" MODIFIED="1569455292678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/IntroToAlgorithms$StringToInteger_atoi_.coverage" NAME="StringToInteger(atoi) Coverage Results" MODIFIED="1592556728492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/String" />
     <SUITE FILE_PATH="coverage/IntroToAlgorithms$Unittests_for_Lab6Grader_Grader.coverage" NAME="Unittests for Lab6Grader.Grader Coverage Results" MODIFIED="1569369755361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
   </component>
 </project>
