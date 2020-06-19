@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9dacd83-dfd3-493a-9036-fae5bef70ee4" name="Default Changelist" comment="" />
+    <list default="true" id="d9dacd83-dfd3-493a-9036-fae5bef70ee4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCode/String/ReverseInteger.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +16,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JupyterTrust" id="1923216c-98ee-4323-b222-4ea002074710" />
   <component name="ProjectId" id="1Qw86zFVGMga5qu5s4lNHRQE6gf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SortingAlgorithms" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -184,6 +191,7 @@
       <workItem from="1569360311686" duration="25807000" />
       <workItem from="1569600341410" duration="28445000" />
       <workItem from="1592120604524" duration="15076000" />
+      <workItem from="1592544840856" duration="96000" />
     </task>
     <servers />
   </component>
